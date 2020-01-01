@@ -1,0 +1,32 @@
+2020-01-01 11:11:56 INFO  CustomLog:25 - ProcessUtils:43	-	Elastic search data deleted successfully
+2020-01-01 11:12:04 INFO  CustomLog:25 - TestBase:28	-	browser set firefox
+2020-01-01 11:12:04 INFO  CustomLog:25 - TestBase:28	-	browser set chrome
+2020-01-01 11:12:14 INFO  CustomLog:25 - PageBase:35	-	Wait until the page load
+2020-01-01 11:12:14 INFO  CustomLog:25 - Welcome:29	-	verify logo is present 
+2020-01-01 11:12:17 INFO  CustomLog:25 - PageBase:35	-	Wait until the page load
+2020-01-01 11:12:18 INFO  CustomLog:25 - Welcome:29	-	verify logo is present 
+2020-01-01 11:13:17 ERROR CustomLog:41 -  Element Not found: Expected condition failed: Finding Element (tried for 60 second(s) with 500 milliseconds interval)
+2020-01-01 11:13:21 ERROR CustomLog:41 -  Element Not found: Expected condition failed: Finding Element (tried for 60 second(s) with 500 milliseconds interval)
+2020-01-01 11:13:21 ERROR CustomLog:41 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9200 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2020-01-01 11:13:21 INFO  CustomLog:25 - Hooks:66	-	Close the driver
+2020-01-01 11:13:24 ERROR CustomLog:41 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9200 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2020-01-01 11:13:24 INFO  CustomLog:25 - Hooks:66	-	Close the driver
+2020-01-01 11:13:29 INFO  CustomLog:25 - TestBase:28	-	browser set chrome
+2020-01-01 11:13:32 INFO  CustomLog:25 - TestBase:28	-	browser set firefox
+2020-01-01 11:13:36 INFO  CustomLog:25 - PageBase:35	-	Wait until the page load
+2020-01-01 11:13:36 INFO  CustomLog:25 - Welcome:29	-	verify logo is present 
+2020-01-01 11:13:41 INFO  CustomLog:25 - PageBase:35	-	Wait until the page load
+2020-01-01 11:13:41 INFO  CustomLog:25 - Welcome:29	-	verify logo is present 
+2020-01-01 11:14:38 ERROR CustomLog:41 -  Element Not found: Expected condition failed: Finding Element (tried for 60 second(s) with 500 milliseconds interval)
+2020-01-01 11:14:40 INFO  CustomLog:25 - TestCase1:33	-	logo verified
+2020-01-01 11:14:40 INFO  CustomLog:25 - Welcome:37	-	click on the humburger button
+2020-01-01 11:14:40 INFO  CustomLog:25 - TestCase1:36	-	humburger section verified
+2020-01-01 11:14:42 ERROR CustomLog:41 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9200 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2020-01-01 11:14:42 INFO  CustomLog:25 - Hooks:66	-	Close the driver
+2020-01-01 11:14:44 ERROR CustomLog:41 -  Element Not found: Expected condition failed: Finding Element (tried for 60 second(s) with 500 milliseconds interval)
+2020-01-01 11:14:44 INFO  CustomLog:25 - TestCase1:33	-	logo verified
+2020-01-01 11:14:44 INFO  CustomLog:25 - Welcome:37	-	click on the humburger button
+2020-01-01 11:14:45 INFO  CustomLog:25 - TestCase1:36	-	humburger section verified
+2020-01-01 11:14:47 ERROR CustomLog:41 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9200 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2020-01-01 11:14:47 INFO  CustomLog:25 - Hooks:66	-	Close the driver
+2020-01-01 11:15:05 INFO  CustomLog:25 - ProcessUtils:31	-	Allure server started successfully

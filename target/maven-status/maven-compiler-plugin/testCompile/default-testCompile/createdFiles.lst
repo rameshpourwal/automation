@@ -1,0 +1,8 @@
+com\framework\smoke\TestCase2.class
+com\framework\smokeapi\PutDataTest.class
+com\framework\testbase\Hooks.class
+com\framework\smokeapi\Registartion.class
+com\framework\smokeapi\GetWeatherData.class
+com\framework\smoke\TestCase1.class
+com\framework\testbase\ApiHooks.class
+com\framework\smokeapi\DeleteData.class

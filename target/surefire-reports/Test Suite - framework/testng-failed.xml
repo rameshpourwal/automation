@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test Suite - framework]" parallel="tests">
+  <listeners>
+    <listener class-name="com.framework.elasticsearch.ExecutionListener"/>
+  </listeners>
+  <test thread-count="2" verbose="0" name="chrome_Test (failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.framework.smoke.TestCase2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearUp"/>
+          <include name="showAllureReport"/>
+          <include name="setAllureEnvironment"/>
+          <include name="test_2"/>
+        </methods>
+      </class> <!-- com.framework.smoke.TestCase2 -->
+    </classes>
+  </test> <!-- chrome_Test (failed) -->
+  <test thread-count="2" verbose="0" name="firefox_Test (failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.framework.smoke.TestCase2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearUp"/>
+          <include name="showAllureReport"/>
+          <include name="setAllureEnvironment"/>
+          <include name="test_2"/>
+        </methods>
+      </class> <!-- com.framework.smoke.TestCase2 -->
+    </classes>
+  </test> <!-- firefox_Test (failed) -->
+</suite> <!-- Failed suite [Test Suite - framework] -->

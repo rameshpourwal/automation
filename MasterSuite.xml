@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Test Suite - framework" parallel="tests">
+  <listeners>
+    <listener class-name="com.framework.elasticsearch.ExecutionListener"/>
+  </listeners>
+  <test thread-count="2" name="chrome_Test " parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.framework.smoke.TestCase2"/>
+      <class name="com.framework.smoke.TestCase1"/>
+    </classes>
+  </test> <!-- chrome_Test  -->
+  <test thread-count="2" name="firefox_Test " parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.framework.smoke.TestCase2"/>
+      <class name="com.framework.smoke.TestCase1"/>
+    </classes>
+  </test> <!-- firefox_Test  -->
+</suite> <!-- Test Suite - framework -->
