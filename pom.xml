@@ -29,7 +29,7 @@
 		<rest-assured-version>4.0.0</rest-assured-version>
 		<elasticsearch-version>5.5.3</elasticsearch-version>
 		<unirest-version>1.4.9</unirest-version>
-		<jackson-version>2.9.4</jackson-version>
+		<jackson-version>2.9.10.3</jackson-version>
 		<json-version>20180813</json-version>
 	</properties>
 
