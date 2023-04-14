@@ -30,7 +30,7 @@
 		<elasticsearch-version>5.5.3</elasticsearch-version>
 		<unirest-version>1.4.9</unirest-version>
 		<jackson-version>2.9.4</jackson-version>
-		<json-version>20180813</json-version>
+		<json-version>20230227</json-version>
 	</properties>
 
 	<build>
